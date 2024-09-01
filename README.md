@@ -84,3 +84,9 @@ Health insurance companies can use the model to take note of high risk areas esp
 From the analysis the following recommendations can be drawn:
 - Ensemble models can be used to improve the performance.
 - Different data with new features i.e pregnancy can be used to further fine tune the model.
+
+## Limitations
+Some limitations to this project are:
+- Class imbalance in the target variable. The target variable was imbalanced which may lead to overfitting. Use of SMOTE or other techniques may be used to address this.
+- Ethical issues may arise i.e some individuals may not be willing for their personal sensitive data to be used.
+- Presence of duplicates and missing values may tamper the accuracy of the model and possibly introduce bias.
